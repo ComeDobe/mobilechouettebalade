@@ -1,28 +1,44 @@
+//
+//
+//
+//ion-header {
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//}
+//
+//ion-content {
+//  display: flex;
+//  align-items: center;
+//  justify-content: center;
+//  height: 100vh;
+//}
+//
+//ion-content .content-container {
+//  max-width: 90%;
+//  padding: 20px;
+//}
+//
+//@media only screen and (max-width: 768px) {
+//  ion-content .content-container {
+//    max-width: 100%;
+//    padding: 10px;
+//  }
+//}
+//
 
 
 
-ion-header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
+/* Centrer le contenu verticalement dans la page */
 ion-content {
   display: flex;
-  align-items: center;
+  flex-direction: column;
   justify-content: center;
-  height: 100vh;
+  align-items: center;
+  height: 100vh; /* Ajuster la hauteur à 100% de la vue */
 }
 
-ion-content .content-container {
-  max-width: 90%;
-  padding: 20px;
+/* Ajouter une marge pour l'espace autour du contenu */
+ion-content .ion-text-center {
+  margin: 20px;
 }
-
-@media only screen and (max-width: 768px) {
-  ion-content .content-container {
-    max-width: 100%;
-    padding: 10px;
-  }
-}
-
